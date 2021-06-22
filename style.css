@@ -18,8 +18,8 @@ header {
 .search-bar {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
-
 .top-nav-container > nav > ul {
   display: flex;
   list-style: none;
@@ -48,8 +48,12 @@ ul li:hover .dropdown {
   justify-content: center;
 }
 .column {
-  border: solid;
   margin: 10px;
+  background-image: url("images/small_cube_bg.png");
+}
+
+.overlay1{
+  border-radius: 0 0 30px 0;
 }
 
 /* footer Design */
@@ -60,6 +64,7 @@ footer {
   height: 38px;
   width: 100%;
 }
+
 .bottom-nav-container > nav > ul {
   display: flex;
   justify-content: space-evenly;
