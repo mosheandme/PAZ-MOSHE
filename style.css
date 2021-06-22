@@ -4,12 +4,14 @@
 body {
   direction: rtl;
   text-align: right;
+  margin: 0;
 }
 
 /* header Design */
 header {
   background-color: rgb(144, 144, 144);
   height: 105px;
+  width: 100%;
 }
 .search-bar {
   display: flex;
@@ -19,6 +21,7 @@ header {
 .top-nav-container > nav > ul {
   display: flex;
   list-style: none;
+  justify-content: space-between;
 }
 .top-nav-container > nav > ul > li > a {
   color: #fff;
