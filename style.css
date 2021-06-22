@@ -5,6 +5,8 @@ body {
   direction: rtl;
   text-align: right;
   margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 /* header Design */
@@ -21,7 +23,7 @@ header {
 .top-nav-container > nav > ul {
   display: flex;
   list-style: none;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .top-nav-container > nav > ul > li > a {
   color: #fff;
@@ -41,7 +43,6 @@ ul li:hover .dropdown {
 }
 
 /* main page Design */
-
 .row {
   display: flex;
   justify-content: center;
@@ -61,7 +62,7 @@ footer {
 }
 .bottom-nav-container > nav > ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   font-size: 12px;
   list-style: none;
 }
